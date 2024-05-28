@@ -35,15 +35,6 @@ function(a, b) {
     as.numeric(a) + as.numeric(b)
 }
 
-
-#* @get /hello
-function() {
-  paste0("Hello, world!")
-}
-
-
-
-
 # Programmatically alter your API
 #* @plumber
 function(pr) {
