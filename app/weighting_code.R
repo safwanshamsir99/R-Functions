@@ -39,5 +39,3 @@ calc_weight <- function(
   
   return(df)
 }
-
-
